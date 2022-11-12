@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/firstpage.css'
 
 function Navegation() {
   return (
-    <nav>
+    <nav className="navegation">
       <ul>
         <a><li>INÍCIO</li></a>
         <a><li>SOBRE</li></a>

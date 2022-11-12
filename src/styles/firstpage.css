@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background-color: rgb(77, 77, 77);
+  font-family: 'Chilanka', cursive;
+}
+
+.navegation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegation li {
+  margin: 30px 10px 50px;
+  cursor: pointer;
+  font-family: 'Chilanka', cursive;
+  border-bottom: 1px solid rgb(255, 156, 152);
+  font-size: 20px;
+  color: white;
+  transition: ease 0.3s;
+}
+
+.fistpage-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+.fist-title-green {
+  color: rgb(170, 229, 215);
+  margin-bottom: 13px;
+}
+
+.first-title-pink span {
+  background-color: rgb(255, 232, 152);
+  padding: 15px;
+  color: rgb(77, 77, 77);
+  margin: 0 10px;
+}
+
+.first-title-pink {
+  color: rgb(202, 102, 169); 
+}
+
+.second-div img {
+  margin: 50px 0;
+  width: 300px;
+}
+
+.second-title-name {
+  color: rgb(255, 156, 152);
+  margin-bottom: 20px;
+}
+
+.second-title-profession {
+  background-color: rgb(255, 232, 152);
+  padding: 20px;
+  color: rgb(77, 77, 77);
+  margin-bottom: 30px;
+}
+
+.fistpage-section a img {
+  width: 50px;
+}
+
+.navegation li:hover {
+  border-bottom: 1px solid rgb(255, 232, 152);
+  color: rgb(202, 102, 169);
+}
