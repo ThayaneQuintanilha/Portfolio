@@ -15,3 +15,5 @@ const projects = [
     description: 'is simply dummy text of the trys standard dummy text ever since the 1500s',
   },
 ];
+
+export default projects;
