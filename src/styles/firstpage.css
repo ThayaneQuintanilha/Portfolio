@@ -62,12 +62,13 @@
 
 .second-title-profession {
   background-color: rgb(255, 232, 152);
-  padding: 20px;
   color: rgb(77, 77, 77);
+  padding: 20px;
   margin-bottom: 30px;
 }
 
 .fistpage-section a img {
+  cursor: pointer;
   width: 50px;
 }
 
