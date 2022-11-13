@@ -1,0 +1,56 @@
+.about-section {
+  color: white;
+}
+
+.about-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about-img img {
+  width: 150px;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.about-description p {
+  width: 25%;
+  margin: 40px 40px 0;
+  font-size: 20px;
+}
+
+.about-rectangle {
+  width: 20px;
+  height: 250px;
+  background-color: rgb(255, 156, 152);
+  box-shadow: 3px 3px 3px 0px rgba(170,229,215,1);
+}
+
+.about-rectangle-radius {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 50px 0;
+}
+
+.about-rectangle-radius p {
+  background-color: rgb(255, 232, 152);
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 0 20px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(77, 77, 77);
+}
