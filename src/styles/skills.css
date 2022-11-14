@@ -25,11 +25,14 @@
 .skills-book img {
   margin-top: 50px;
   width: 25vw;
+  z-index: 2;
 }
 
-.skills-list {
-  z-index: 2;
-  margin-top: -400px;
+.skills-wave {
+  position: relative;
+  z-index: 1;
+  top: -330px;
+  height: 300px;
 }
 
 .skills-rectangle-radius {
@@ -37,7 +40,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 50px 50px 0;
+  margin: -200px 0 0;
 }
 
 .skills-rectangle-radius p {
