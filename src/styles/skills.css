@@ -1,0 +1,55 @@
+.skills-section {
+  color: white;
+}
+
+.skills-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.skills-img img {
+  width: 150px;
+}
+
+.skills-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-book img {
+  margin-top: 50px;
+  width: 25vw;
+  z-index: 2;
+}
+
+.skills-wave {
+  position: relative;
+  z-index: 1;
+  top: -330px;
+  height: 300px;
+}
+
+.skills-rectangle-radius {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: -200px 0 0;
+}
+
+.skills-rectangle-radius p {
+  background-color: rgb(170, 229, 215);
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 0 20px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(77, 77, 77);
+}
