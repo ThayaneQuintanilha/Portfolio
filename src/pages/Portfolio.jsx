@@ -5,6 +5,7 @@ import AboutMe from '../components/AboutMe';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import '../styles/ribbon.css';
+import Contact from '../components/Contact';
 
 function Portfolio() {
   return (
@@ -15,6 +16,7 @@ function Portfolio() {
       <AboutMe />
       <Projects />
       <Skills />
+      <Contact />
     </section>
   );
 }
