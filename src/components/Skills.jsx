@@ -1,10 +1,9 @@
 import React from 'react';
-import personal from '../info/personal';
 import number3 from '../assets/number3.png';
-import caderno from '../assets/caderno.png';
+import livro from '../assets/livro.png';
+import '../styles/skills.css'
 
 function Skills() {
-  const { me: { skills } } = personal;
   return (
     <section className="skills-section">
       <div className="skills-img">
@@ -12,16 +11,7 @@ function Skills() {
         <h2>habilidades</h2>
       </div>
       <div className="skills-book">
-        <img src={caderno} alt="livro" />
-        <div className="skills-list">
-          <ul>
-            {skills.map((skill, index) => {
-              return (
-                <li key={ index }>{skill}</li>
-                )
-              })}
-          </ul>
-        </div>
+        <img src={livro} alt="livro" />
         <div className="skills-rectangle-radius">
           <p>~</p>
           <p>~</p>
