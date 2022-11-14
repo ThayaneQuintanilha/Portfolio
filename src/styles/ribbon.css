@@ -1,0 +1,7 @@
+.ribbon {
+  position: fixed;
+  left: 100px;
+  background-color: rgb(255, 156, 152);
+  width: 30px;
+  height: 100%;
+}

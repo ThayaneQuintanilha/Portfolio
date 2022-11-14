@@ -53,6 +53,8 @@
 .second-div img {
   margin: 50px 0;
   width: 300px;
+  border-radius: 10px;
+  border-bottom: 5px solid rgb(255, 232, 152);
 }
 
 .second-title-name {
