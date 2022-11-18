@@ -104,3 +104,22 @@
   width: 15px;
   height: 15px;
 }
+
+.rec.rec-arrow, .rec.rec-arrow:hover:enabled, .rec.rec-arrow:enabled, .rec.rec-arrow:focus:enabled {
+  background: none;
+  box-shadow: none;
+}
+
+.rec.rec-dot {
+  background-color: rgb(107, 107, 107);
+  box-shadow: 0 0 1px 2px rgb(255, 232, 152);
+}
+
+.rec.rec-dot:hover:enabled, .rec.rec-dot:focus:enabled {
+  background: rgb(255, 232, 152);
+  box-shadow: 0 0 1px 2px rgb(255, 232, 152);
+}
+
+.rec.rec-carousel {
+  width: 900px;
+}
