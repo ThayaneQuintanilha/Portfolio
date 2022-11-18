@@ -2,8 +2,10 @@ import React from 'react';
 import number2 from '../assets/number2.png';
 import projects from '../info/projects';
 import github from '../assets/github.png';
-import arrowe from '../assets/arrowe.png';
-import arrowd from '../assets/arrowd.png';
+// import arrowe from '../assets/arrowe.png';
+// import arrowd from '../assets/arrowd.png';
+import Item from '../styles/item.js';
+import Carousel from 'react-elastic-carousel';
 import '../styles/projects.css'
 
 function Projects() {
@@ -15,21 +17,22 @@ function Projects() {
       </div>
 
       <div className="projects-description">
-        <button><img className="projects-arrow" src={arrowe} alt="Seta" /></button>
-        {projects.map((project, index) => {
+        <Carousel itemsToShow={3}>
+          {projects.map((project, index) => {
             const { image, title, description, link } = project;
-          return (
-            <div key={ index } className="project-group">
-              <img src={image} alt={title} />
-              <h2>{title}</h2>
-              <p>{description}</p>
-              <div className="project-github-image">
-                <a target="_blank" href={link}><img src={github} alt="github" /></a>
+            return (
+              <div key={ index } className="project-group">
+                <img src={image} alt={title} />
+                <h2>{title}</h2>
+                <p>{description}</p>
+                <div className="project-github-image">
+                  <a target="_blank" href={link}><img src={github} alt="github" /></a>
+                </div>
               </div>
-            </div>
-          );
-        })}
-        <button><img className="projects-arrow" src={arrowd} alt="Seta" /></button>
+            );
+          })}
+          
+        </Carousel>
       </div>
 
       <div className="projects-rectangle-radius">
