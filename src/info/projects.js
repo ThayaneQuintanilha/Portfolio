@@ -12,7 +12,7 @@ const projects = [
     image: frontonlinestore,
     title: 'FrontEnd Online Store',
     description: 'Projeto realizado em ReactJs, foco foi criar uma nova aplicação para o mercadoLivre, agora com trabalho em equipe utilizando kanban.',
-    link: 'https://github.com/ThayaneQuintanilha/ShoppingCart',
+    link: 'https://github.com/ThayaneQuintanilha/frontend-online-store',
   },
   {
     image: trybetunes,
@@ -48,7 +48,7 @@ const projects = [
     image: todolist,
     title: 'TodoList',
     description: 'Projeto realizado em Javascript puro, focado na criação de uma lista de tarefas.',
-    link: 'https://github.com/ThayaneQuintanilha/ToDoListTRYBEa',
+    link: 'https://github.com/ThayaneQuintanilha/ToDoListTRYBE',
   },
 ];
 
