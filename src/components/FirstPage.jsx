@@ -17,7 +17,7 @@ function FirstPage() {
         <h1 className="second-title-name">{fullName}</h1>
         <h1 className="second-title-profession">{profession}</h1>
       </div>
-      <a><img src={setaVerde} alt="setaVerde" /></a>
+      <a href="#about-id"><img src={setaVerde} alt="setaVerde" /></a>
     </section>
   );
 }

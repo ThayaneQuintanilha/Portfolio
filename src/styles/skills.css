@@ -22,9 +22,9 @@
   align-items: center;
 }
 
-.skills-book img {
+.skills-book-img {
   margin-top: 50px;
-  width: 25vw;
+  height: 450px;
   z-index: 2;
 }
 
@@ -32,7 +32,8 @@
   position: relative;
   z-index: 1;
   top: -330px;
-  height: 300px;
+  width: 75vw;
+  height: 30vh;
 }
 
 .skills-rectangle-radius {

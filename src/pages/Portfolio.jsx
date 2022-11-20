@@ -9,7 +9,7 @@ import Contact from '../components/Contact';
 
 function Portfolio() {
   return (
-    <section>
+    <section className="principal">
       <div className="ribbon"></div>
       <Navegation />
       <FirstPage />

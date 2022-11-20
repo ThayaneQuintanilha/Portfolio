@@ -1,5 +1,5 @@
-// import { useState } from 'react';
 import Portfolio from './pages/Portfolio'
+import './styles/app.css';
 
 function App() {
   return (

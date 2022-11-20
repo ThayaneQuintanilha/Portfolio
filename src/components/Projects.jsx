@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import number2 from '../assets/number2.png';
 import projects from '../info/projects';
 import github from '../assets/github.png';
@@ -6,6 +6,9 @@ import Carousel from 'react-elastic-carousel';
 import '../styles/projects.css'
 
 function Projects() {
+  useEffect(() => {
+    console.log(window.innerWidth)
+  }, [])
   return (
     <section className="projects-section">
       <div className="projects-img">
@@ -14,7 +17,7 @@ function Projects() {
       </div>
 
       <div className="projects-description">
-        <Carousel itemsToShow={3}>
+        <Carousel itemsToShow={Number(window.innerWidth) < 394 ? 2 : 3}>
           {projects.map((project, index) => {
             const { image, title, description, link } = project;
             return (

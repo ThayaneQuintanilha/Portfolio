@@ -8,6 +8,10 @@
   font-family: 'Chilanka', cursive;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navegation ul {
   display: flex;
   flex-direction: row;

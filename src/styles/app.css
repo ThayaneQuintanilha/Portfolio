@@ -1,0 +1,123 @@
+@media (max-width:1643px) {
+  .skills-wave {
+    position: relative;
+    top: -350px;
+    width: 70vw;
+  }
+  .about-rectangle {
+    height: 300px;
+  }
+  .rec.rec-arrow-left {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:1272px) {
+  .skills-wave {
+    position: relative;
+    top: -300px;
+    width: 70vw;
+  }
+  .ribbon {
+    display: none;
+  }
+  .skills-book-img {
+    height: 350px;
+  }
+  .skills-book {
+    margin-top: 30px;
+  }
+  .about-rectangle {
+    height: 350px;
+  }
+}
+
+@media (max-width:1029px) {
+  .skills-wave {
+    position: relative;
+    top: -270px;
+    width: 70vw;
+  }
+  .skills-book-img {
+    height: 350px; 
+  }
+  .about-rectangle {
+    height: 380px;
+  }
+}
+
+@media (max-width:864px) {
+  .skills-wave {
+    display: none;
+  }
+  .skills-book-img {
+    margin: 10px 0 200px;
+  }
+  .skills-rectangle-radius {
+    margin-top: -130px;
+  }
+  .fistpage-section {
+    font-size: 40px;
+  }
+  .rec.rec-carousel {
+    width: 600px;
+  }
+  .about-rectangle {
+    height: 300px;
+  }
+  .about-description p {
+    width: 50%;
+  }
+}
+
+@media (max-width:673px) {
+  .about-rectangle {
+    height: 400px;
+  }
+  .principal {
+    overflow-x: hidden;  
+  }
+  .about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .about-rectangle {
+    width: 90vw;
+    height: 20px;
+    margin-top: 30px;
+  }
+ }
+
+ @media (max-width:551px) {
+  .rec.rec-carousel {
+    width: 500px;
+  }
+}
+
+ @media (max-width:393px) {
+  .about-description p {
+    width: 90vw;
+  }
+  .navegation ul a li {
+    font-size: 17px;
+  }
+  .fistpage-section {
+    font-size: 30px;
+  }
+  .second-div img {
+    width: 250px;
+  }
+  .skills-book {
+    margin: 0;
+  }
+  .contact-section {
+    margin: 30px 0 60px;
+  }
+  .skills-rectangle-radius p {
+    width: 60px;
+  }
+ }
