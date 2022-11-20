@@ -98,7 +98,22 @@
   }
 }
 
- @media (max-width:393px) {
+@media (max-width:481px) {
+  .fistpage-section {
+    font-size: 35px;
+  }
+}
+
+@media (max-width:414px) {
+  .navegation ul a li {
+    font-size: 17px;
+  }
+  .fistpage-section {
+    font-size: 30px;
+  }
+}
+
+ @media (max-width:390px) {
   .about-description p {
     width: 90vw;
   }
@@ -119,5 +134,8 @@
   }
   .skills-rectangle-radius p {
     width: 60px;
+  }
+  .fistpage-section {
+    font-size: 25px;
   }
  }

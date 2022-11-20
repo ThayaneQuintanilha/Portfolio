@@ -52,3 +52,15 @@
   width: 50px;
   margin: 0 8px;
 }
+
+.section-beginning {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-beginning img {
+  margin: -70px 0 30px;
+  width: 50px;
+}
