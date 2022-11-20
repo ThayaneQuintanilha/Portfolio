@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import number2 from '../assets/number2.png';
 import projects from '../info/projects';
 import github from '../assets/github.png';
@@ -6,18 +6,15 @@ import Carousel from 'react-elastic-carousel';
 import '../styles/projects.css'
 
 function Projects() {
-  useEffect(() => {
-    console.log(window.innerWidth)
-  }, [])
   return (
     <section className="projects-section">
       <div className="projects-img">
-        <img src={number2} alt="imagem do projeto" />
+        <img id="project" src={number2} alt="imagem do projeto" />
         <h2>meus projetos</h2>
       </div>
 
       <div className="projects-description">
-        <Carousel itemsToShow={Number(window.innerWidth) < 394 ? 2 : 3}>
+        <Carousel itemsToShow={Number(window.innerWidth) < 500 ? 2 : 3}>
           {projects.map((project, index) => {
             const { image, title, description, link } = project;
             return (

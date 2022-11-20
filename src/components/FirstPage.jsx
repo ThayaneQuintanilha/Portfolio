@@ -9,7 +9,7 @@ function FirstPage() {
   return (
     <section className="fistpage-section">
       <div>
-        <h1 className="fist-title-green">Seja Bem-Vindo(a)</h1>
+        <h1 className="fist-title-green" id="beginning">Seja Bem-Vindo(a)</h1>
         <h1 className="first-title-pink">AO<span>MEU</span>PORTFÓLIO</h1>
       </div>
       <div className="second-div">
