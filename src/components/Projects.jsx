@@ -2,9 +2,6 @@ import React from 'react';
 import number2 from '../assets/number2.png';
 import projects from '../info/projects';
 import github from '../assets/github.png';
-// import arrowe from '../assets/arrowe.png';
-// import arrowd from '../assets/arrowd.png';
-import Item from '../styles/item.js';
 import Carousel from 'react-elastic-carousel';
 import '../styles/projects.css'
 
