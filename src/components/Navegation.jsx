@@ -5,10 +5,10 @@ function Navegation() {
   return (
     <nav className="navegation">
       <ul>
-        <a><li>INÍCIO</li></a>
-        <a><li>SOBRE</li></a>
-        <a><li>PROJETOS</li></a>
-        <a><li>CONTATO</li></a>
+        <a href="#beginning"><li>INÍCIO</li></a>
+        <a href="#about-id"><li>SOBRE</li></a>
+        <a href="#project"><li>PROJETOS</li></a>
+        <a href="#contact"><li>CONTATO</li></a>
       </ul>
     </nav>
   );
